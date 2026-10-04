@@ -1,0 +1,207 @@
+/* Palette & Variables - Sky Blue Aesthetic */
+:root {
+  --sky-primary: #38bdf8;
+  --sky-hover: #0284c7;
+  --sky-light-bg: #f0f9ff;
+  --sky-card-bg: #e0f2fe;
+  --sky-dark-text: #0369a1;
+  --text-dark: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  color: var(--text-dark);
+  background-color: #ffffff;
+}
+
+/* Header & Nav */
+.brand-logo {
+  color: var(--text-dark);
+  font-size: 1.25rem;
+}
+
+.nav-link-custom {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link-custom:hover {
+  color: var(--sky-hover);
+}
+
+.btn-outline-dark-custom {
+  border: 1.5px solid var(--text-dark);
+  color: var(--text-dark);
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-dark-custom:hover {
+  background-color: var(--text-dark);
+  color: #fff;
+}
+
+/* Hero Section */
+.greeting-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+
+.highlight-word {
+  font-style: italic;
+  font-weight: 800;
+  color: var(--sky-hover);
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Sky Blue Buttons */
+.btn-sky-primary {
+  background-color: var(--sky-primary);
+  color: #ffffff;
+  border: 2px solid var(--sky-primary);
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.35);
+}
+
+.btn-sky-primary:hover {
+  background-color: var(--sky-hover);
+  border-color: var(--sky-hover);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-sky-secondary {
+  background-color: #ffffff;
+  color: var(--text-dark);
+  border: 2px solid var(--text-dark);
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.btn-sky-secondary:hover {
+  background-color: var(--text-dark);
+  color: #ffffff;
+}
+
+/* Hero Avatar Illustration Style */
+.hero-image-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.blob-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  z-index: 1;
+}
+
+.hero-avatar-illustration {
+  position: relative;
+  width: 250px;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(0px 8px 16px rgba(56, 189, 248, 0.25));
+  transition: transform 0.3s ease;
+}
+
+.hero-avatar-illustration:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Tech Bar */
+.tech-item {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* About Section */
+.bg-sky-light {
+  background-color: var(--sky-light-bg);
+}
+
+.text-sky-dark {
+  color: var(--sky-dark-text);
+}
+
+/* Projects Section */
+.bg-sky-section {
+  background-color: var(--sky-light-bg);
+}
+
+.badge-sky-tag {
+  background-color: #bae6fd;
+  color: var(--sky-dark-text);
+  font-weight: 600;
+}
+
+.project-card {
+  background-color: var(--sky-card-bg);
+  border: none;
+  transition: transform 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.tag-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+/* Helpers */
+.max-w-600 {
+  max-width: 600px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

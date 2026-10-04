@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moch Hafidz Asrof - Portfolio</title>
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#" class="brand-logo fw-bold text-decoration-none">
+        Hafidz.
+      </a>
+      <nav class="d-none d-md-flex gap-4">
+        <a href="#about" class="nav-link-custom">About</a>
+        <a href="#skills" class="nav-link-custom">Services & Skills</a>
+        <a href="#projects" class="nav-link-custom">Case Studies</a>
+        <a href="#contact" class="nav-link-custom">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-outline-dark-custom d-none d-sm-inline-block">Get in touch</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section py-5">
+    <div class="container py-lg-4">
+      <div class="row align-items-center">
+        <!-- Text Content Left -->
+        <div class="col-lg-7 pe-lg-5 mb-5 mb-lg-0 text-start">
+          <p class="greeting-text mb-2">Hi, I'm Hafidz 👋</p>
+          <h1 class="hero-title mb-3">
+            I design & build digital experiences that drive <span class="highlight-word">impact.</span>
+          </h1>
+          <p class="hero-subtitle mb-4 text-secondary">
+            Saya mahasiswa D4 Manajemen Informatika UNESA yang berfokus pada pengembangan Front-End Web dan perancangan UI/UX yang fungsional, responsif, dan ramah pengguna.
+          </p>
+          <div class="d-flex flex-wrap gap-3 align-items-center">
+            <a href="#projects" class="btn btn-sky-primary">Lihat Portofolio</a>
+            <a href="#contact" class="btn btn-sky-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <!-- Image Right with Sky Blue Blob Shape & Illustration -->
+        <div class="col-lg-5 text-center">
+          <div class="hero-image-wrapper">
+            <div class="blob-bg"></div>
+            <!-- Gambar Ilustrasi -->
+            <img src="avatar.png" alt="Illustration of Moch Hafidz Asrof" class="hero-avatar-illustration">
+          </div>
+          <p class="image-caption mt-3">Illustration of Moch Hafidz Asrof</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Bar -->
+  <section class="tech-bar py-4 my-3 border-top border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-4 text-muted opacity-75 justify-content-center">
+        <span class="tech-item"><i class="bi bi-filetype-html me-2"></i>HTML5 & CSS3</span>
+        <span class="tech-item"><i class="bi bi-bootstrap me-2"></i>Bootstrap 5</span>
+        <span class="tech-item"><i class="bi bi-code-slash me-2"></i>Laravel</span>
+        <span class="tech-item"><i class="bi bi-figma me-2"></i>Figma Design</span>
+        <span class="tech-item"><i class="bi bi-database me-2"></i>MySQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container py-4">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <h2 class="section-heading mb-3">Tentang Saya</h2>
+          <p class="text-secondary">
+            Saya aktif mengembangkan aplikasi web berbasis Laravel dan Vue, perancangan antarmuka di Figma, serta eksplorasi mobile app dengan Flutter.
+          </p>
+          <div class="p-4 bg-light rounded-4 border">
+            <div class="mb-2"><strong>Nama:</strong> Moch Hafidz Asrof</div>
+            <div class="mb-2"><strong>Kampus:</strong> Universitas Negeri Surabaya</div>
+            <div class="mb-0"><strong>Prodi:</strong> D4 Manajemen Informatika</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="p-4 rounded-4 bg-sky-light text-start">
+                <h3 class="fw-bold text-sky-dark mb-1">D4</h3>
+                <p class="m-0 text-secondary small">Manajemen Informatika UNESA</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-4 rounded-4 bg-sky-light text-start">
+                <h3 class="fw-bold text-sky-dark mb-1">UI/UX</h3>
+                <p class="m-0 text-secondary small">Design & Web Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-sky-section">
+    <div class="container py-4">
+      <div class="text-start mb-5">
+        <span class="badge badge-sky-tag px-3 py-2 rounded-pill mb-2">Featured Projects</span>
+        <h2 class="section-heading">Case Studies & Proyek Pilihan</h2>
+      </div>
+
+      <div class="row g-4">
+        <!-- Project Card 1 -->
+        <div class="col-md-6">
+          <div class="project-card rounded-5 p-4 p-lg-5 h-100">
+            <span class="badge bg-white text-dark mb-3 rounded-pill px-3 py-2">Laravel POS</span>
+            <h3 class="fw-bold text-dark mb-3">GO BUSINESS</h3>
+            <p class="text-secondary mb-4">Aplikasi Point of Sales berbasis web untuk pengelolaan sistem kasir, manajemen inventaris barang, dan laporan penjualan.</p>
+            <div class="project-tags d-flex gap-2">
+              <span class="tag-item">Laravel</span>
+              <span class="tag-item">MySQL</span>
+              <span class="tag-item">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="col-md-6">
+          <div class="project-card rounded-5 p-4 p-lg-5 h-100">
+            <span class="badge bg-white text-dark mb-3 rounded-pill px-3 py-2">Geolocation HRIS</span>
+            <h3 class="fw-bold text-dark mb-3">presenZ Falco</h3>
+            <p class="text-secondary mb-4">Sistem presensi karyawan online menggunakan verifikasi lokasi OpenStreetMap dan integrasi kamera WebRTC.</p>
+            <div class="project-tags d-flex gap-2">
+              <span class="tag-item">WebRTC</span>
+              <span class="tag-item">Leaflet/OSM</span>
+              <span class="tag-item">Multi-Auth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container py-4 text-center">
+      <div class="max-w-600 mx-auto">
+        <h2 class="section-heading mb-3">Let's work together.</h2>
+        <p class="text-secondary mb-4">Punya pertanyaan atau ingin diskusi terkait proyek web development & UI/UX? Hubungi saya kapan saja.</p>
+        <a href="mailto:hafidzasrof@example.com" class="btn btn-sky-primary btn-lg rounded-pill px-5">Kirim Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <p class="m-0 text-muted small">&copy; 2026 Moch Hafidz Asrof. All rights reserved.</p>
+      <div class="d-flex gap-3 text-muted small">
+        <span>Foundations of Web Development</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
